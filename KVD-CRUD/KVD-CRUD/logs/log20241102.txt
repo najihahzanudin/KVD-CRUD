@@ -1,0 +1,42 @@
+2024-11-02 23:57:57.169 +08:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-02 23:57:57.219 +08:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-11-02 23:57:57.220 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-02 23:57:57.308 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-11-02 23:57:57.310 +08:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-11-02 23:57:57.312 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-11-02 23:57:57.316 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-11-02 23:57:57.329 +08:00 [INF] Applying migration '20241102155632_InitialCreate'.
+2024-11-02 23:57:57.377 +08:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AuditLogs] (
+    [Id] int NOT NULL IDENTITY,
+    [TableName] nvarchar(max) NOT NULL,
+    [Action] nvarchar(max) NOT NULL,
+    [Description] nvarchar(max) NOT NULL,
+    [Timestamp] datetime2 NOT NULL,
+    CONSTRAINT [PK_AuditLogs] PRIMARY KEY ([Id])
+);
+2024-11-02 23:57:57.379 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Tickets] (
+    [Id] int NOT NULL IDENTITY,
+    [name] nvarchar(max) NULL,
+    [country] nvarchar(max) NULL,
+    [phoneNumber] nvarchar(max) NOT NULL,
+    [IsDeleted] bit NOT NULL,
+    CONSTRAINT [PK_Tickets] PRIMARY KEY ([Id])
+);
+2024-11-02 23:57:57.382 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20241102155632_InitialCreate', N'8.0.10');

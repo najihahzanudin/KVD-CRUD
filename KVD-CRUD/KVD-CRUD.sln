@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KVD-CRUD", "KVD-CRUD\KVD-CRUD.csproj", "{94545F92-14C1-46ED-9C61-B32380BBE203}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94545F92-14C1-46ED-9C61-B32380BBE203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94545F92-14C1-46ED-9C61-B32380BBE203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94545F92-14C1-46ED-9C61-B32380BBE203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94545F92-14C1-46ED-9C61-B32380BBE203}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {534DC779-DD35-4BDA-A6AB-0AE61C7ED4A5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,73 @@
+﻿@{
+    ViewData["Title"] = "Create Ticket";
+}
+
+@if (TempData["AlertMessage"] != null)
+{
+    <div class="custom-alert alert-success">
+        @TempData["AlertMessage"]
+    </div>
+}
+
+<div class="d-flex min-vh-100 align-items-center justify-content-center">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <h5 class="d-block mb-3 text-white">Enter your details</h5>
+
+                <form asp-controller="Ticket" asp-action="Create" method="post" onsubmit="return validateForm()">
+                    <div class="d-grid gap-3 w-50 mx-auto">
+                        <p class="text-warning"><b>Name</b></p>
+                        <input type="text" id="name" name="username" class="form-control" />
+
+                        <div class="dropdown">
+                            <p class="text-warning"><b>Country</b></p>
+                            <button class="btn dropdown-toggle w-100" style="background-color: white; border-color: black" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span id="countrySelected">Malaysia</span>
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#" onclick="selectCountry('Malaysia')">Malaysia</a>
+                                <a class="dropdown-item" href="#" onclick="selectCountry('Singapore')">Singapore</a>
+                                <a class="dropdown-item" href="#" onclick="selectCountry('Thailand')">Thailand</a>
+                            </div>
+                        </div>
+
+                        <input type="hidden" id="selectedCountry" name="country" value="Malaysia" />
+                        <p class="text-warning"><b>Phone Number</b></p>
+                        <input type="number" id="phoneNumber" name="phoneNumber" class="form-control" />
+                        <small id="errorMessage" class="text-danger" style="display: none; font-weight: bold;">Invalid mobile number.</small>
+                        <br />
+
+                        <button type="submit" class="btn btn-warning rounded-pill d-block text-decoration-none"><b>Submit</b></button>
+                        <a asp-controller="Home" asp-action="Index" class="btn btn-warning rounded-pill d-block text-decoration-none">Cancel</a>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function selectCountry(selectedItem) {
+        document.getElementById('countrySelected').textContent = selectedItem;
+        document.getElementById('selectedCountry').value = selectedItem;
+    }
+</script>
+
+<script>
+    function validateForm() {
+        const phoneNumber = document.getElementById('phoneNumber').value;
+        const errorMessage = document.getElementById('errorMessage');
+
+        const phonePattern = /^\d{10}$/;
+
+        if (!phonePattern.test(phoneNumber)) {
+            errorMessage.style.display = 'block';
+            return false;
+        } else {
+            errorMessage.style.display = 'none';
+            return true;
+        }
+    }
+</script>

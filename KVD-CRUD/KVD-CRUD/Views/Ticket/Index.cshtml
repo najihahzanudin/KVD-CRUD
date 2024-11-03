@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Ticket>
+
+@{
+    ViewData["Title"] = "List of Ticket";
+}
+
+@{
+    int rowNumber = 1;
+}
+
+@if (TempData["AlertMessage"] != null)
+{
+    <div class="custom-alert alert-success">
+        @TempData["AlertMessage"]
+    </div>
+}
+<div class="d-flex min-vh-100 align-items-center justify-content-center">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <h5 class="d-block mb-3 text-white">Sila pilih perkhidmatan</h5>
+                <h7 class="d-block mb-4 text-white">Please select a service</h7>
+
+                <table class="table bg-white">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Country</th>
+                            <th scope="col">Phone Number</th>
+                            <th scope="col">CreatedAt</th>
+                            <th scope="col">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var ticket in Model)
+                        {
+                            <tr>
+                                <th scope="row">@rowNumber</th>
+                                <td>@ticket.name</td>
+                                <td>@ticket.country</td>
+                                <td>@ticket.phoneNumber</td>
+                                <td>@ticket.createdAt</td>
+                                <td class="d-flex justify-content-center">
+                                    <form asp-controller="Ticket" asp-action="Update" asp-route-id="@ticket.id" method="get" style="display: inline;">
+                                        <button type="submit" class="btn btn-primary rounded-pill d-block text-decoration-none">Update</button>
+                                    </form>
+                                    <form asp-controller="Ticket" asp-action="Delete" asp-route-id="@ticket.id" method="post" style="display: inline;">
+                                        <button type="submit" class="btn btn-danger rounded-pill d-block text-decoration-none">Delete</button>
+                                    </form>
+                                </td>
+                            </tr>
+                            rowNumber++;    
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,60 @@
+﻿@model Ticket
+
+@{
+    ViewData["Title"] = "Update Ticket";
+}
+
+<div class="d-flex min-vh-100 align-items-center justify-content-center">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                <h5 class="d-block mb-3 text-white">Enter your details</h5>
+
+                <form asp-controller="Ticket" asp-action="Update" method="post" onsubmit="return validateForm()">
+                    <div class="d-grid gap-3 w-50 mx-auto">
+                        <input type="hidden" asp-for="id" />
+
+                        <p class="text-warning"><b>Name</b></p>
+                        <input asp-for="name" id="name" name="username" class="form-control" />
+
+                        <p class="text-warning"><b>Country</b></p>
+                        <input asp-for="country" class="form-control" />
+
+                        <p class="text-warning"><b>Phone Number</b></p>
+                        <input asp-for="phoneNumber" id="phoneNumber" name="phoneNumber" class="form-control" />
+                        <small id="errorMessage" class="text-danger" style="display: none; font-weight: bold;">Invalid mobile number.</small>
+                        <br />
+
+                        <button type="submit" class="btn btn-warning rounded-pill d-block text-decoration-none"><b>Submit</b></button>
+                        <a asp-controller="Home" asp-action="Index" class="btn btn-warning rounded-pill d-block text-decoration-none">Cancel</a>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function selectCountry(selectedItem) {
+        document.getElementById('countrySelected').textContent = selectedItem;
+        document.getElementById('selectedCountry').value = selectedItem;
+    }
+</script>
+
+<script>
+    function validateForm() {
+        const phoneNumber = document.getElementById('phoneNumber').value;
+        const errorMessage = document.getElementById('errorMessage');
+
+        const phonePattern = /^\d{10}$/;
+
+        if (!phonePattern.test(phoneNumber)) {
+            errorMessage.style.display = 'block';
+            return false;
+        } else {
+            errorMessage.style.display = 'none';
+            return true;
+        }
+    }
+</script>
