@@ -1,0 +1,111 @@
+2024-11-07 13:52:33.410 +08:00 [INF] User profile is available. Using 'C:\Users\Najihah Zanudin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-11-07 13:52:33.876 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-11-07 13:52:33.876 +08:00 [INF] Hosting environment: Development
+2024-11-07 13:52:33.876 +08:00 [INF] Content root path: D:\KVD\KVD-CRUD\KVD-CRUD\KVD-CRUD
+2024-11-07 13:52:33.876 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/ - null null
+2024-11-07 13:52:34.574 +08:00 [INF] Executing endpoint 'KVD_CRUD.Controllers.HomeController.Index (KVD-CRUD)'
+2024-11-07 13:52:34.617 +08:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller KVD_CRUD.Controllers.HomeController (KVD-CRUD).
+2024-11-07 13:52:34.626 +08:00 [INF] Executing ViewResult, running view Index.
+2024-11-07 13:52:35.180 +08:00 [INF] Executed ViewResult - view Index executed in 554.5943ms.
+2024-11-07 13:52:35.184 +08:00 [INF] Executed action KVD_CRUD.Controllers.HomeController.Index (KVD-CRUD) in 565.7785ms
+2024-11-07 13:52:35.184 +08:00 [INF] Executed endpoint 'KVD_CRUD.Controllers.HomeController.Index (KVD-CRUD)'
+2024-11-07 13:52:35.194 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/ - 200 null text/html; charset=utf-8 1330.0166ms
+2024-11-07 13:52:35.273 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/lib/bootstrap/dist/css/bootstrap.min.css - null null
+2024-11-07 13:52:35.273 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - null null
+2024-11-07 13:52:35.276 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/KVD_CRUD.styles.css - null null
+2024-11-07 13:52:35.279 +08:00 [INF] The file /lib/bootstrap/dist/css/bootstrap.min.css was not modified
+2024-11-07 13:52:35.279 +08:00 [INF] The file /css/site.css was not modified
+2024-11-07 13:52:35.282 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/KVD_CRUD.styles.css - 404 null null 5.6912ms
+2024-11-07 13:52:35.282 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/css/site.css?v=pAGv4ietcJNk_EwsQZ5BN9-K4MuNYS2a9wl4Jw-q9D0 - 304 null text/css 8.929ms
+2024-11-07 13:52:35.282 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/lib/bootstrap/dist/css/bootstrap.min.css - 304 null text/css 9.0554ms
+2024-11-07 13:52:35.288 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44323/KVD_CRUD.styles.css, Response status code: 404
+2024-11-07 13:52:35.301 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/lib/bootstrap/dist/js/bootstrap.bundle.min.js - null null
+2024-11-07 13:52:35.301 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/lib/jquery/dist/jquery.min.js - null null
+2024-11-07 13:52:35.304 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - null null
+2024-11-07 13:52:35.304 +08:00 [INF] The file /lib/jquery/dist/jquery.min.js was not modified
+2024-11-07 13:52:35.304 +08:00 [INF] The file /lib/bootstrap/dist/js/bootstrap.bundle.min.js was not modified
+2024-11-07 13:52:35.304 +08:00 [INF] The file /js/site.js was not modified
+2024-11-07 13:52:35.304 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/lib/jquery/dist/jquery.min.js - 304 null text/javascript 3.2346ms
+2024-11-07 13:52:35.304 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/lib/bootstrap/dist/js/bootstrap.bundle.min.js - 304 null text/javascript 4.5347ms
+2024-11-07 13:52:35.304 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/js/site.js?v=hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo - 304 null text/javascript 0.5182ms
+2024-11-07 13:52:35.310 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-07 13:52:35.313 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/_vs/browserLink - null null
+2024-11-07 13:52:35.315 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 3.2578ms
+2024-11-07 13:52:35.375 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.4032ms
+2024-11-07 13:53:03.573 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/Ticket - null null
+2024-11-07 13:53:03.594 +08:00 [INF] Executing endpoint 'KVD_CRUD.Controllers.TicketController.Index (KVD-CRUD)'
+2024-11-07 13:53:03.596 +08:00 [INF] Route matched with {action = "Index", controller = "Ticket"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller KVD_CRUD.Controllers.TicketController (KVD-CRUD).
+2024-11-07 13:53:07.793 +08:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[id], [t].[country], [t].[createdAt], [t].[flagDelete], [t].[name], [t].[phoneNumber], [t].[updatedAt]
+FROM [Tickets] AS [t]
+WHERE [t].[flagDelete] = CAST(0 AS bit)
+2024-11-07 13:53:07.875 +08:00 [INF] Executing ViewResult, running view Index.
+2024-11-07 13:53:07.907 +08:00 [INF] Executed ViewResult - view Index executed in 32.2265ms.
+2024-11-07 13:53:07.907 +08:00 [INF] Executed action KVD_CRUD.Controllers.TicketController.Index (KVD-CRUD) in 4311.4557ms
+2024-11-07 13:53:07.907 +08:00 [INF] Executed endpoint 'KVD_CRUD.Controllers.TicketController.Index (KVD-CRUD)'
+2024-11-07 13:53:07.928 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/Ticket - 200 null text/html; charset=utf-8 4354.4933ms
+2024-11-07 13:53:07.929 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/KVD_CRUD.styles.css - null null
+2024-11-07 13:53:07.930 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-07 13:53:07.930 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/_vs/browserLink - null null
+2024-11-07 13:53:07.932 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/KVD_CRUD.styles.css - 404 null null 3.366ms
+2024-11-07 13:53:07.932 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 1.869ms
+2024-11-07 13:53:07.933 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44323/KVD_CRUD.styles.css, Response status code: 404
+2024-11-07 13:53:07.948 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.23ms
+2024-11-07 13:53:11.690 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/Ticket/Update/4? - null null
+2024-11-07 13:53:11.693 +08:00 [INF] Executing endpoint 'KVD_CRUD.Controllers.TicketController.Update (KVD-CRUD)'
+2024-11-07 13:53:11.707 +08:00 [INF] Route matched with {action = "Update", controller = "Ticket"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Update(Int32) on controller KVD_CRUD.Controllers.TicketController (KVD-CRUD).
+2024-11-07 13:53:11.892 +08:00 [INF] Executed DbCommand (137ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [t].[id], [t].[country], [t].[createdAt], [t].[flagDelete], [t].[name], [t].[phoneNumber], [t].[updatedAt]
+FROM [Tickets] AS [t]
+WHERE [t].[id] = @__id_0
+2024-11-07 13:53:11.895 +08:00 [INF] Executing ViewResult, running view Update.
+2024-11-07 13:53:11.922 +08:00 [INF] Executed ViewResult - view Update executed in 27.6186ms.
+2024-11-07 13:53:11.922 +08:00 [INF] Executed action KVD_CRUD.Controllers.TicketController.Update (KVD-CRUD) in 214.0508ms
+2024-11-07 13:53:11.922 +08:00 [INF] Executed endpoint 'KVD_CRUD.Controllers.TicketController.Update (KVD-CRUD)'
+2024-11-07 13:53:11.923 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/Ticket/Update/4? - 200 null text/html; charset=utf-8 233.1061ms
+2024-11-07 13:53:11.944 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/KVD_CRUD.styles.css - null null
+2024-11-07 13:53:11.945 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-07 13:53:11.945 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/KVD_CRUD.styles.css - 404 null null 1.093ms
+2024-11-07 13:53:11.945 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/_vs/browserLink - null null
+2024-11-07 13:53:11.945 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44323/KVD_CRUD.styles.css, Response status code: 404
+2024-11-07 13:53:11.947 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 1.5367ms
+2024-11-07 13:53:11.955 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/_vs/browserLink - 200 null text/javascript; charset=UTF-8 9.6094ms
+2024-11-07 13:53:16.012 +08:00 [INF] Request starting HTTP/2 POST https://localhost:44323/Ticket/Update/4 - application/x-www-form-urlencoded 242
+2024-11-07 13:53:16.019 +08:00 [INF] Executing endpoint 'KVD_CRUD.Controllers.TicketController.Update (KVD-CRUD)'
+2024-11-07 13:53:16.026 +08:00 [INF] Route matched with {action = "Update", controller = "Ticket"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Update(KVD_CRUD.Models.Ticket, System.String) on controller KVD_CRUD.Controllers.TicketController (KVD-CRUD).
+2024-11-07 13:53:16.214 +08:00 [INF] Executed DbCommand (7ms) [Parameters=[@p6='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Boolean), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Tickets] SET [country] = @p0, [createdAt] = @p1, [flagDelete] = @p2, [name] = @p3, [phoneNumber] = @p4, [updatedAt] = @p5
+OUTPUT 1
+WHERE [id] = @p6;
+2024-11-07 13:53:16.295 +08:00 [INF] Executed DbCommand (35ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AuditLogs] ([createdAt], [description], [username])
+OUTPUT INSERTED.[id]
+VALUES (@p0, @p1, @p2);
+2024-11-07 13:53:16.310 +08:00 [INF] Update ticket for user aliah at "2024-11-07T05:53:16.0428663Z"
+2024-11-07 13:53:16.312 +08:00 [INF] Executing RedirectResult, redirecting to /Ticket.
+2024-11-07 13:53:16.314 +08:00 [INF] Executed action KVD_CRUD.Controllers.TicketController.Update (KVD-CRUD) in 287.8765ms
+2024-11-07 13:53:16.314 +08:00 [INF] Executed endpoint 'KVD_CRUD.Controllers.TicketController.Update (KVD-CRUD)'
+2024-11-07 13:53:16.315 +08:00 [INF] Request finished HTTP/2 POST https://localhost:44323/Ticket/Update/4 - 302 null null 302.4524ms
+2024-11-07 13:53:16.318 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/Ticket - null null
+2024-11-07 13:53:16.321 +08:00 [INF] Executing endpoint 'KVD_CRUD.Controllers.TicketController.Index (KVD-CRUD)'
+2024-11-07 13:53:16.321 +08:00 [INF] Route matched with {action = "Index", controller = "Ticket"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller KVD_CRUD.Controllers.TicketController (KVD-CRUD).
+2024-11-07 13:53:16.326 +08:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [t].[id], [t].[country], [t].[createdAt], [t].[flagDelete], [t].[name], [t].[phoneNumber], [t].[updatedAt]
+FROM [Tickets] AS [t]
+WHERE [t].[flagDelete] = CAST(0 AS bit)
+2024-11-07 13:53:16.327 +08:00 [INF] Executing ViewResult, running view Index.
+2024-11-07 13:53:16.331 +08:00 [INF] Executed ViewResult - view Index executed in 4.0013ms.
+2024-11-07 13:53:16.331 +08:00 [INF] Executed action KVD_CRUD.Controllers.TicketController.Index (KVD-CRUD) in 9.8654ms
+2024-11-07 13:53:16.331 +08:00 [INF] Executed endpoint 'KVD_CRUD.Controllers.TicketController.Index (KVD-CRUD)'
+2024-11-07 13:53:16.332 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/Ticket - 200 null text/html; charset=utf-8 13.4616ms
+2024-11-07 13:53:16.354 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/_framework/aspnetcore-browser-refresh.js - null null
+2024-11-07 13:53:16.354 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/KVD_CRUD.styles.css - null null
+2024-11-07 13:53:16.355 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/KVD_CRUD.styles.css - 404 null null 1.0929ms
+2024-11-07 13:53:16.355 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/_framework/aspnetcore-browser-refresh.js - 200 13752 application/javascript; charset=utf-8 1.2105ms
+2024-11-07 13:53:16.355 +08:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44323/KVD_CRUD.styles.css, Response status code: 404
+2024-11-07 13:53:16.355 +08:00 [INF] Request starting HTTP/2 GET https://localhost:44323/_vs/browserLink - null null
+2024-11-07 13:53:16.366 +08:00 [INF] Request finished HTTP/2 GET https://localhost:44323/_vs/browserLink - 200 null text/javascript; charset=UTF-8 10.4029ms

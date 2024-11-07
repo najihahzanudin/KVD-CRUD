@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KVD-CRUD")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+473870112f8b7497c1290cff1d6082c697c7961b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+463ea3c7f2fd42dc0cbdc5ae7eef0b828865f4a7")]
 [assembly: System.Reflection.AssemblyProductAttribute("KVD-CRUD")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KVD-CRUD")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

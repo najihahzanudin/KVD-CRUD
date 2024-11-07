@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KVD\\KVD-CRUD\\KVD-CRUD\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94545F92-14C1-46ED-9C61-B32380BBE203}|KVD-CRUD\\KVD-CRUD.csproj|d:\\kvd\\kvd-crud\\kvd-crud\\kvd-crud\\views\\ticket\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94545F92-14C1-46ED-9C61-B32380BBE203}|KVD-CRUD\\KVD-CRUD.csproj|solutionrelative:kvd-crud\\views\\ticket\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94545F92-14C1-46ED-9C61-B32380BBE203}|KVD-CRUD\\KVD-CRUD.csproj|d:\\kvd\\kvd-crud\\kvd-crud\\kvd-crud\\views\\ticket\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94545F92-14C1-46ED-9C61-B32380BBE203}|KVD-CRUD\\KVD-CRUD.csproj|solutionrelative:kvd-crud\\views\\ticket\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94545F92-14C1-46ED-9C61-B32380BBE203}|KVD-CRUD\\KVD-CRUD.csproj|d:\\kvd\\kvd-crud\\kvd-crud\\kvd-crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94545F92-14C1-46ED-9C61-B32380BBE203}|KVD-CRUD\\KVD-CRUD.csproj|solutionrelative:kvd-crud\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94545F92-14C1-46ED-9C61-B32380BBE203}|KVD-CRUD\\KVD-CRUD.csproj|d:\\kvd\\kvd-crud\\kvd-crud\\kvd-crud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{94545F92-14C1-46ED-9C61-B32380BBE203}|KVD-CRUD\\KVD-CRUD.csproj|solutionrelative:kvd-crud\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94545F92-14C1-46ED-9C61-B32380BBE203}|KVD-CRUD\\KVD-CRUD.csproj|d:\\kvd\\kvd-crud\\kvd-crud\\kvd-crud\\views\\ticket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{94545F92-14C1-46ED-9C61-B32380BBE203}|KVD-CRUD\\KVD-CRUD.csproj|solutionrelative:kvd-crud\\views\\ticket\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94545F92-14C1-46ED-9C61-B32380BBE203}|KVD-CRUD\\KVD-CRUD.csproj|d:\\kvd\\kvd-crud\\kvd-crud\\kvd-crud\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94545F92-14C1-46ED-9C61-B32380BBE203}|KVD-CRUD\\KVD-CRUD.csproj|solutionrelative:kvd-crud\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94545F92-14C1-46ED-9C61-B32380BBE203}|KVD-CRUD\\KVD-CRUD.csproj|d:\\kvd\\kvd-crud\\kvd-crud\\kvd-crud\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94545F92-14C1-46ED-9C61-B32380BBE203}|KVD-CRUD\\KVD-CRUD.csproj|solutionrelative:kvd-crud\\models\\auditlog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94545F92-14C1-46ED-9C61-B32380BBE203}|KVD-CRUD\\KVD-CRUD.csproj|d:\\kvd\\kvd-crud\\kvd-crud\\kvd-crud\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94545F92-14C1-46ED-9C61-B32380BBE203}|KVD-CRUD\\KVD-CRUD.csproj|solutionrelative:kvd-crud\\controllers\\ticketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\KVD\\KVD-CRUD\\KVD-CRUD\\KVD-CRUD\\Program.cs",
+              "RelativeDocumentMoniker": "KVD-CRUD\\Program.cs",
+              "ToolTip": "D:\\KVD\\KVD-CRUD\\KVD-CRUD\\KVD-CRUD\\Program.cs",
+              "RelativeToolTip": "KVD-CRUD\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T21:15:21.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\KVD\\KVD-CRUD\\KVD-CRUD\\KVD-CRUD\\appsettings.json",
+              "RelativeDocumentMoniker": "KVD-CRUD\\appsettings.json",
+              "ToolTip": "D:\\KVD\\KVD-CRUD\\KVD-CRUD\\KVD-CRUD\\appsettings.json",
+              "RelativeToolTip": "KVD-CRUD\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-03T21:15:17.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "D:\\KVD\\KVD-CRUD\\KVD-CRUD\\KVD-CRUD\\Views\\Ticket\\Update.cshtml",
+              "RelativeDocumentMoniker": "KVD-CRUD\\Views\\Ticket\\Update.cshtml",
+              "ToolTip": "D:\\KVD\\KVD-CRUD\\KVD-CRUD\\KVD-CRUD\\Views\\Ticket\\Update.cshtml",
+              "RelativeToolTip": "KVD-CRUD\\Views\\Ticket\\Update.cshtml",
+              "ViewState": "AgIAACUAAAAAMzMzMzMLwDgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T17:51:45.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\KVD\\KVD-CRUD\\KVD-CRUD\\KVD-CRUD\\Views\\Ticket\\Index.cshtml",
+              "RelativeDocumentMoniker": "KVD-CRUD\\Views\\Ticket\\Index.cshtml",
+              "ToolTip": "D:\\KVD\\KVD-CRUD\\KVD-CRUD\\KVD-CRUD\\Views\\Ticket\\Index.cshtml",
+              "RelativeToolTip": "KVD-CRUD\\Views\\Ticket\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T17:42:26.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\KVD\\KVD-CRUD\\KVD-CRUD\\KVD-CRUD\\Views\\Ticket\\Create.cshtml",
+              "RelativeDocumentMoniker": "KVD-CRUD\\Views\\Ticket\\Create.cshtml",
+              "ToolTip": "D:\\KVD\\KVD-CRUD\\KVD-CRUD\\KVD-CRUD\\Views\\Ticket\\Create.cshtml",
+              "RelativeToolTip": "KVD-CRUD\\Views\\Ticket\\Create.cshtml",
+              "ViewState": "AgIAAB8AAABAMzMzMzMrwEgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T16:36:37.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TicketController.cs",
+              "DocumentMoniker": "D:\\KVD\\KVD-CRUD\\KVD-CRUD\\KVD-CRUD\\Controllers\\TicketController.cs",
+              "RelativeDocumentMoniker": "KVD-CRUD\\Controllers\\TicketController.cs",
+              "ToolTip": "D:\\KVD\\KVD-CRUD\\KVD-CRUD\\KVD-CRUD\\Controllers\\TicketController.cs",
+              "RelativeToolTip": "KVD-CRUD\\Controllers\\TicketController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T16:20:36.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuditLog.cs",
+              "DocumentMoniker": "D:\\KVD\\KVD-CRUD\\KVD-CRUD\\KVD-CRUD\\Models\\AuditLog.cs",
+              "RelativeDocumentMoniker": "KVD-CRUD\\Models\\AuditLog.cs",
+              "ToolTip": "D:\\KVD\\KVD-CRUD\\KVD-CRUD\\KVD-CRUD\\Models\\AuditLog.cs",
+              "RelativeToolTip": "KVD-CRUD\\Models\\AuditLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T14:50:31.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "D:\\KVD\\KVD-CRUD\\KVD-CRUD\\KVD-CRUD\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "KVD-CRUD\\Models\\Ticket.cs",
+              "ToolTip": "D:\\KVD\\KVD-CRUD\\KVD-CRUD\\KVD-CRUD\\Models\\Ticket.cs",
+              "RelativeToolTip": "KVD-CRUD\\Models\\Ticket.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T14:41:32.578Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

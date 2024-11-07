@@ -73,13 +73,13 @@ namespace KVD_CRUD.Controllers
                 _context.Tickets.Update(ticket);
                 _context.SaveChanges();
 
+                AuditLog("Update Ticket", ticket.name);
+                _logger.LogInformation("Update ticket for user {name} at {@createdAt}", ticket.name, ticket.createdAt);
+
+                TempData["AlertMessage"] = "Update Ticket Successfully!";
+
                 return RedirectToAction("Index");
             }
-
-            AuditLog("Update Ticket", ticket.name);
-            _logger.LogInformation("Update ticket for user {name} at {@createdAt}", ticket.name, ticket.createdAt);
-
-            TempData["AlertMessage"] = "Update Ticket Successfully!";
 
             return View(ticket);
         }
